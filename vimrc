@@ -52,14 +52,3 @@ set noshowmode
 if !has('gui-running')
   set t_Co=256
 endif
-
-:set showmode
-:set showcmd
-:set termguicolors
-
-
-:set hlsearch
-
-if filereadable(expand("~/.vimrc.plug"))
-    source ~/.vimrc.plug
-endif	
