@@ -52,7 +52,7 @@ set noshowmode
 if !has('gui-running')
   set t_Co=256
 endif
-number
+
 :set showmode
 :set showcmd
 :set termguicolors
